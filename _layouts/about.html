@@ -33,6 +33,13 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+            {%- if page.social_under_image %}
+            <div class="social">
+              <div class="contact-icons" style="font-size: 1.9em;">
+                {% include social.html %}
+              </div>
+            </div>
+            {%- endif %}
           </div>
           {%- endif %}
 

@@ -2,26 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Tsinghua University / ETH Zurich
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
+social_under_image: true # includes social icons underneath picture
 ---
 
-Work in progress. Great things to come :)
+I am interested in the intersection of the theory of computation, cognitive science and (machine) intelligence.
+In parallel, I build tools, methods and datasets to advance research questions in climate science.
+When appropriate, I like to apply and improve methods from deep learning.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+During my undergrad at ETH Zurich, I worked with my supervisor [Nora Hollenstein](https://norahollenstein.github.io) to bridge rationale-based interpretability methods for natual language processing and psycholinguistic data like eye-tracking.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I also spent time as a part-time researcher at Lawrence Berkeley Lab working on large-scale deep learning for climte analytics, supervised by [Prabhat](https://www.researchgate.net/profile/Mr-Prabhat) and [Karthik Kashinath](https://scholar.google.com/citations?user=sNMCgVwAAAAJ&hl=en). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Afterwards, I joined Nvidia as a research intern under supervision of [Anima Anandkumar](https://en.wikipedia.org/wiki/Anima_Anandkumar), improving calibration of the FourCastNet neural weather model.
+
+Currently I am a Masters student at Tsinghua University in [Wenwu Zhu](https://scholar.google.com/citations?user=7t2jzpgAAAAJ&hl=en)'s lab, connecting abstraction-based library learning, program synthesis and mathematical reasoning to enable machines to re-organize formal theories based on experience, allowing for better generalisation and interpretability.

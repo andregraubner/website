@@ -15,7 +15,8 @@ social: false  # includes social icons at the bottom of the page
 social_under_image: true # includes social icons underneath picture
 ---
 
-I am interested in the intersection of the theory of computation, cognitive science and (machine) intelligence.
+I am interested in building foundation models for genomics and epigenomics.
+Beyond that, I like thinking about the intersection of the theory of computation, cognitive science and (machine) intelligence.
 In parallel, I build tools, methods and datasets to advance research questions in climate science.
 When appropriate, I like to apply and improve methods from deep learning.
 

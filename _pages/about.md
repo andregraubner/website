@@ -15,7 +15,7 @@ social: false  # includes social icons at the bottom of the page
 social_under_image: true # includes social icons underneath picture
 ---
 
-I am interested in building foundation models for genomics and epigenomics.
+I am interested in building genetic and epigenetic foundation models, for example with [State Space Models](https://arxiv.org/abs/2312.00752).
 
 Before that I built tools, methods and datasets to advance research questions in climate science at Nvidia and the European Space Agency.
 When appropriate, I like to apply and improve methods from deep learning.

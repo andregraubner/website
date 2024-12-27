@@ -30,9 +30,6 @@
     <p>&compfn; MSc @ Tsinghua University
     </div>
   </div>
-  <div class="image-container">
-    <img src="images/tokyo.jpg" alt="Description">
-  </div>
 </div>
 
 <div class="section-header">Selected Work</div>
@@ -96,6 +93,7 @@
 /* For work items with smaller images */
 .work-item {
   display: flex;
+  text-align: justify;
   gap: 2em;
   margin: 1.5em 0;
 }
@@ -121,7 +119,7 @@ html {
   padding: 2ch;
   margin: auto;
   color: #333;
-  font-size: 1.2em
+  font-size: 1.21em
 }
 .header {
   display: flex;
@@ -130,7 +128,7 @@ html {
   margin: 2em 0;
 }
 .intro {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #222;
   letter-spacing: -0.01em;
 }
@@ -159,12 +157,4 @@ p a {
 }
 p a:hover {
   border-color: #666;
-}
-.circular-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  -webkit-mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
-  mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
 }
